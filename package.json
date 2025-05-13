@@ -16,5 +16,11 @@
     "url": "https://github.com/BastianBrito/AprendiendoReact/issues"
   },
   "homepage": "https://github.com/BastianBrito/AprendiendoReact#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
